@@ -6,8 +6,55 @@ html {
 body {
     background-image: url(./images/Gasai_yuno.webp);
     background-repeat: no-repeat;
-    background-size:stretch;
+    background-attachment: fixed;
+    background-size: stretch;
     background-position: top right;
     background-color: black;
+    max-width: 75%;
+    height: 100%;
     color: white;
+    font-family: 'Monofett', monospace;
+    margin: 0 auto;
+}
+
+#banner {
+    text-align: center;
+    height: 100%;
+    font-family: 'Caveat', cursive;;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe h3 {
+    text-align: center;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.recipe {
+    background-color: white;
+    margin: 1rem;
+    opacity: 0.9;
+    min-width: 30%;
+}
+
+.recipe img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+
+a, a:visited {
+    text-decoration: none;
 }
