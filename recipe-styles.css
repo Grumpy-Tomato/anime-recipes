@@ -1,0 +1,45 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+body {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 0, 0, 0.2)), url(./images/Gasai_yuno_vector_trace_02_by_spanuel-d73v2bg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: stretch;
+    background-position: top right;
+    background-color: black;
+    max-width: 85%;
+    height: 100%;
+    color: white;
+    font-family: 'Monofett', monospace;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    opacity: 0.95;
+    color: black;
+    max-width: 50%;
+    width: 100%;
+    min-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+#banner {
+    text-align: center;
+    font-family: 'Caveat', cursive;;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    width: 100%;
+}
+
+main img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

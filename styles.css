@@ -4,7 +4,7 @@ html {
     font-size: 16px;
 }
 body {
-    background-image: url(./images/Gasai_yuno.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2)), url(./images/Gasai_yuno.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: stretch;
