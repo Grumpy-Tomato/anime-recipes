@@ -42,11 +42,14 @@ body {
     margin: 1rem;
     opacity: 0.9;
     min-width: 30%;
+    border-radius: 10px;
 }
 
 .recipe img {
     width: 100%;
     height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .recipe:hover {
