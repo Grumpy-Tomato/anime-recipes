@@ -1,0 +1,13 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+body {
+    background-image: url(./images/Gasai_yuno.webp);
+    background-repeat: no-repeat;
+    background-size:stretch;
+    background-position: top right;
+    background-color: black;
+    color: white;
+}
